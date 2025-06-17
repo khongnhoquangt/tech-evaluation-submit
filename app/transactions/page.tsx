@@ -147,7 +147,7 @@ export default function TransactionsPage() {
           const isActive = selectedType === item
           return <Button
               key={index}
-              className='text-white'
+              className='text-white hover:text-black'
               onClick={() => setSelectedType(item)}
               variant={isActive ? 'primary' : 'outline'}
               size="medium"
